@@ -20,4 +20,17 @@ tailwindcss 환경설정 시 vite와의 설정 충돌 때문에
 ``
 npm install @tailwindcss/vite
 ``
-명령어로 패키지 추가 설치
+명령어로 혹시 몰라 패키지 추가 설치
+
+vite 설정 수정
+``
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'  // 추가
+
+// https://vite.dev/config/
+export default defineConfig({
+  // 아래도 tailwindcss() 추가
+  plugins: [react(), tailwindcss()],
+})
+``

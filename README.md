@@ -10,26 +10,36 @@
 ## 🛠 Tech Stack
 - React
 - Vite
-- Tailwind CSS (Optional)
+- Tailwind CSS (v4)
 
 ## 💡 Philosophy
 "Simple is the best."
 
-## TroubleShooting
-tailwindcss 환경설정 시 vite와의 설정 충돌 때문에 
-``
-npm install @tailwindcss/vite
-``
-명령어로 혹시 몰라 패키지 추가 설치
+---
 
-vite 설정 수정
-``
+## 🛠 Troubleshooting
+
+### Tailwind CSS v4 환경 설정 이슈
+Vite 환경에서 Tailwind CSS가 정상적으로 렌더링되지 않는 경우, 최신 v4 규격에 맞게 플러그인을 설치하고 설정을 수정해야 합니다.
+
+**1. 패키지 추가 설치**
+```bash
+npm install @tailwindcss/vite
+```
+**2. vite.config.js 수정
+```
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'  // 추가
-// https://vite.dev/config/
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineConfig({
-  // 아래도 tailwindcss() 추가
-  plugins: [react(), tailwindcss()],
+  plugins: [
+    react(),
+    tailwindcss()
+  ],
 })
-``
+```
+**3. index.css 수정
+```
+@import "tailwindcss";
+```

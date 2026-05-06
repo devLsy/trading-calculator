@@ -1,3 +1,10 @@
+---
+
+### 📋 README.md 통합본 (완벽 교정 버전)
+
+아래 내용을 그대로 복사하십시오. 팩트상 모든 개행과 코드 블록을 팩트 있게 닫아두었습니다.
+
+```markdown
 # Trading Calculator
 
 트레이딩 포지션 진입 시 목표 수익률(TP)과 손절 비율(SL)을 실시간으로 계산하는 미니멀 웹 도구입니다.
@@ -26,8 +33,9 @@ Vite 환경에서 Tailwind CSS가 정상적으로 렌더링되지 않는 경우,
 ```bash
 npm install @tailwindcss/vite
 ```
-**2. vite.config.js 수정
-```
+
+**2. vite.config.js 수정**
+```javascript
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
@@ -39,7 +47,7 @@ export default defineConfig({
   ],
 })
 ```
-**3. index.css 수정
-```
+
+**3. index.css 수정**
+```css
 @import "tailwindcss";
-```

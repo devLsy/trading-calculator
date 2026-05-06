@@ -1,4 +1,3 @@
-```markdown
 # Trading Calculator
 
 트레이딩 포지션 진입 시 목표 수익률(TP)과 손절 비율(SL)을 실시간으로 계산하는 미니멀 웹 도구입니다.
@@ -45,3 +44,4 @@ export default defineConfig({
 **3. index.css 수정**
 ```css
 @import "tailwindcss";
+```

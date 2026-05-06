@@ -14,3 +14,10 @@
 
 ## 💡 Philosophy
 "Simple is the best."
+
+## TroubleShooting
+tailwindcss 환경설정 시 vite와의 설정 충돌 때문에 
+``
+npm install @tailwindcss/vite
+``
+명령어로 패키지 추가 설치

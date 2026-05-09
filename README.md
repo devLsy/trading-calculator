@@ -4,13 +4,19 @@
 
 ## 🚀 Key Features
 - **Real-time Calculation**: 진입가 입력 시 즉시 TP/SL 산출.
-- **Flexible Ratio**: 0.8% 등 가변적인 목표 수치 설정 가능.
-- **Minimal Design**: 불필요한 요소 제거, 본질에 집중한 UI.
+- **Conservative Logic**: 수익은 올림(RoundUp), 손실은 내림(RoundDown) 처리하여 시드 보호.
+- **Flexible Ratio**: 0.8% 등 정밀한 소수점 단위 목표 수치 설정 가능.
+- **Minimal Design**: Tailwind CSS 기반의 직관적이고 본질에 집중한 UI.
+
+## 📸 Screenshots
+| 초기 진입 및 레이아웃 | 실제 계산 결과 반영 |
+| :---: | :---: |
+| ![Initial UI](https://github.com/user-attachments/assets/cfbb1d90-0edd-40c4-9b04-f2dce5173fd0) | (추가 스샷 예정) |
 
 ## 🛠 Tech Stack
-- React
-- Vite
-- Tailwind CSS (v4)
+- **Framework**: React (Vite)
+- **Styling**: Tailwind CSS v4
+- **Architecture**: Custom Hooks (`useCalculator`) 기반 로직 분리
 
 ## 💡 Philosophy
 "Simple is the best."

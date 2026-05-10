@@ -2,6 +2,9 @@
 
 트레이딩 포지션 진입 시 목표 수익률(TP)과 손절 비율(SL)을 실시간으로 계산하는 미니멀 웹 도구입니다.
 
+* **배포 URL**: [https://trading-calculator-20e5c.web.app/)
+  > 💡 **Tip**: `Ctrl + 클릭`을 하시면 새 창에서 편하게 열어보실 수 있습니다.
+
 ## 🚀 Key Features
 - **Real-time Calculation**: 진입가 입력 시 즉시 TP/SL 산출.
 - **Conservative Logic**: 수익은 올림(RoundUp), 손실은 내림(RoundDown) 처리하여 시드 보호.

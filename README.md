@@ -52,3 +52,12 @@ export default defineConfig({
 ```css
 @import "tailwindcss";
 ```
+## 📦 Deployment
+
+수정된 소스코드를 실제 웹 서비스에 반영하기 위한 절차입니다. 빌드(`dist` 폴더 생성) 후 배포 순서를 반드시 지켜야 합니다.
+
+**최신 소스 빌드 (Build) 및 배포**
+리액트 코드를 브라우저가 읽을 수 있는 정적 파일로 변환하여 `dist` 폴더에 생성합니다.
+```bash
+npm run build && firebase deploy
+```

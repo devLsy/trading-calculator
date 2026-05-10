@@ -9,7 +9,6 @@
 - **Minimal Design**: Tailwind CSS 기반의 직관적이고 본질에 집중한 UI.
 
 ## 📸 Screenshots
-| :---: | :---: |
 | ![Initial UI](https://github.com/user-attachments/assets/cfbb1d90-0edd-40c4-9b04-f2dce5173fd0)|
 
 ## 🛠 Tech Stack

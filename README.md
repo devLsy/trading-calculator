@@ -11,7 +11,7 @@
 ## 📸 Screenshots
 | 초기 진입 및 레이아웃 | 실제 계산 결과 반영 |
 | :---: | :---: |
-| ![Initial UI](https://github.com/user-attachments/assets/cfbb1d90-0edd-40c4-9b04-f2dce5173fd0) | (추가 스샷 예정) |
+| ![Initial UI](https://github.com/user-attachments/assets/cfbb1d90-0edd-40c4-9b04-f2dce5173fd0)|
 
 ## 🛠 Tech Stack
 - **Framework**: React (Vite)

@@ -4,7 +4,7 @@ export const useCalculator = () => {
   // 1. 진입가 (Entry Price)
   const [entryPrice, setEntryPrice] = useState(0);
   // 2. 목표 수익률 (Profit Rate %): 0.8% 등 목표 수치
-  const [profitRate, setProfitRate] = useState(0.8);
+  const [profitRate, setProfitRate] = useState(1);
   // 3. 목표 손실률 (Loss Rate %): 0.8% 등 방어 수치
   const [lossRate, setLossRate] = useState(0.8);
   // 4. 포지션 방향 (Position): 'long' 또는 'short' 선택

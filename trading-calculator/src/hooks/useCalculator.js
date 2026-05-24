@@ -6,7 +6,7 @@ export const useCalculator = () => {
   // 2. 목표 수익률 (Profit Rate %): 0.8% 등 목표 수치
   const [profitRate, setProfitRate] = useState(1);
   // 3. 목표 손실률 (Loss Rate %): 0.8% 등 방어 수치
-  const [lossRate, setLossRate] = useState(0.8);
+  const [lossRate, setLossRate] = useState(0);
   // 4. 포지션 방향 (Position): 'long' 또는 'short' 선택
   const [position, setPosition] = useState('long');
   // 5. TP 가격 (Take Profit): 계산 결과값을 담을 상태

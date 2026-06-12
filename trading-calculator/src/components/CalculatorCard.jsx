@@ -124,7 +124,7 @@ const CalculatorCard = ({ calc }) => {
                 Order Qty
               </span>
               <span className="text-3xl font-black text-purple-900 font-mono">
-                {entryQuantity > 0 ? entryQuantity.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 4 }) : '0.0000'}
+                {entryQuantity > 0 ? entryQuantity.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 4 }) : '0'}
               </span>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-// ① 포지션 선택기
+// 포지션 선택기
 export const PositionSelector = ({ position, setPosition }) => (
   <div className="flex gap-2">
     <button 

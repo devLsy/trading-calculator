@@ -1,4 +1,4 @@
-// ② 재사용 가능한 입력 필드
+// 재사용 가능한 입력 필드
 export const PriceInputField = ({ label, value, onChange, focusColor = 'blue', labelColor = 'gray-500', placeholder }) => (
   <div className="space-y-2">
     <label className={`text-sm font-bold ml-1 text-${labelColor}`}>{label}</label>

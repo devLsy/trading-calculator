@@ -1,4 +1,4 @@
-// ④ 포지션 사이즈 계산기 섹션
+// 포지션 사이즈 계산기 섹션
 export const PositionSizeCalculator = ({ selectedTicker, setSelectedTicker, coinPrice, targetRisk, setTargetRisk, entryQuantity }) => (
   <div className="mt-6 pt-6 border-t-2 border-dashed border-gray-200 space-y-4">
     <h3 className="text-sm font-black text-gray-800 uppercase tracking-wide">Position Size</h3>

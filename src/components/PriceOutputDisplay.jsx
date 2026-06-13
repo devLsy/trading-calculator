@@ -1,4 +1,4 @@
-// ③ 타겟 가격(TP/SL) 출력판
+// 타겟 가격(TP/SL) 섹션
 export const PriceOutputDisplay = ({ tpPrice, slPrice }) => (
   <div className="p-6 bg-blue-50 rounded-2xl border-2 border-blue-100 space-y-4">
     <div className="flex justify-between items-center">

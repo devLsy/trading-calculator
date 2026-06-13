@@ -17,7 +17,7 @@ export const useCalculator = () => {
   // --- 💡 증액 프로세스 및 API용 추가 상태 자산 ---
   const [selectedTicker, setSelectedTicker] = useState('BTCUSDT'); // 선택된 코인
   const [coinPrice, setCoinPrice] = useState(0);                   // API 실시간 가격
-  const [targetRisk, setTargetRisk] = useState(0);              // 표본 타겟 리스크 (0.05 ➔ 50회 후 0.1)
+  const [targetRisk, setTargetRisk] = useState(0);              // 표본 타겟 리스크(목표로 하는 손익률)
   const [entryQuantity, setEntryQuantity] = useState(0);           // 역산된 최종 진입 수량
 
   useEffect(() => {

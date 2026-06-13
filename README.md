@@ -12,7 +12,7 @@
 - **Minimal Design**: Tailwind CSS 기반의 직관적이고 본질에 집중한 UI.
 
 ## 📸 Screenshots
-![Initial UI](https://github.com/user-attachments/assets/cfbb1d90-0edd-40c4-9b04-f2dce5173fd0)
+<img width="643" height="876" alt="Image" src="https://github.com/user-attachments/assets/61e43f32-3566-471b-9540-7403fe6194a5" />
 
 ## 🛠 Tech Stack
 - **Framework**: React (Vite)

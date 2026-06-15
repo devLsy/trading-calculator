@@ -12,7 +12,7 @@ const CalculatorCard = ({ calc }) => {
   } = calc;
 
   return (
-    <div className="w-full max-w-md bg-white p-6 rounded-3xl shadow-2xl border-t-8 border-blue-600">
+    <div className="w-full h-full max-w-md bg-white p-6 rounded-3xl shadow-2xl border-t-8 border-blue-600">
         {/* 타이틀 */}
         <h1 className="text-xl font-black text-gray-900 mb-6 text-center uppercase tracking-wider">
           TP/SL Calculator 📈

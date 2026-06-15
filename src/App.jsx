@@ -1,11 +1,13 @@
 import React from 'react';
 import { useCalculator } from "./hooks/useCalculator";  
+import { useLedger } from "./hooks/useLedger";
 import CalculatorCard from './components/calculator/CalculatorCard';
 import TradingLedger from './components/ledger/TradingLedger';
     
 function App() {
   const calc = useCalculator(); 
-  
+  const ledger = useLedger();
+
 return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4 md:p-8">
       
@@ -18,7 +20,7 @@ return (
         
         {/* RIGHT: 최종 결과 장부 카드 */}
         <div className="w-full max-w-md flex flex-col">
-          <TradingLedger calc={calc} />
+          <TradingLedger ledger={ledger} />
         </div>
         
       </div>

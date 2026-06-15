@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCalculator } from "./hooks/useCalculator";  
-import CalculatorCard from './components/CalculatorCard';
-import TradingLedger from './components/TradingLedger';
+import CalculatorCard from './components/calculator/CalculatorCard';
+import TradingLedger from './components/ledger/TradingLedger';
     
 function App() {
   const calc = useCalculator(); 

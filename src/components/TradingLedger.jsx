@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
 
 const TradingLedger = () => {
-  const [startTime, setStartTime] = useState('');
-  const [endTime, setEndTime] = useState('');
-  const [duration, setDuration] = useState(0);
+  // 1. 시간 관리 상태
+  const [startTime, setStartTime] = useState('');   // 시작 시간
+  const [endTime, setEndTime] = useState('');       // 종료 시간  
+  const [duration, setDuration] = useState(0);      // 포지션 지속 시간 (분 단위)
 
-  const [fee, setFee] = useState('');             
-  const [margin, setMargin] = useState('');       
-  const [finalBalance, setFinalBalance] = useState(''); 
+  // 2. 거래 결과 입력 상태
+  const [fee, setFee] = useState('');                     // 수수료 입력
+  const [margin, setMargin] = useState('');               // 증거금 입력
+  const [finalBalance, setFinalBalance] = useState('');   // 최종 잔액 입력
 
+  // 현재 시간 자동 입력 함수
   const setNowTime = (type) => {
     const now = new Date();
     const timeString = now.toTimeString().split(' ')[0].substring(0, 5); 
@@ -16,6 +19,7 @@ const TradingLedger = () => {
     if (type === 'end') setEndTime(timeString);
   };
 
+  // 시간 계산 로직 (시작과 종료 시간으로 지속 시간 계산)
   useEffect(() => {
     let startRaw = startTime.replace(':', '');
     let endRaw = endTime.replace(':', '');
